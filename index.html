@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miracle IT</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    * {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+</style>
+<body class="overflow-x-hidden">
+    <nav class="flex fixed justify-between items-center py-6 z-20 w-screen bg-white border-b border-b-[#2B2320] border-opacity-40">
+        <div class="pl-7">
+            <a href="./index.html"><img src="images/logo.svg"/></a>
+        </div>
+        <div class="pr-28 flex gap-11 items-center tracking-wider font-light">
+            <a class="relative hover:border-b-2 hover:border-[#EB493A]" href="./products.html">Products
+                
+            </a>
+            <a class="hover:border-b-2 hover:border-[#EB493A]" href="./services.html">Services</a>
+            <a class="hover:border-b-2 hover:border-[#EB493A]" href="./about.html">About</a>
+            <a class="hover:border-b-2 hover:border-[#EB493A]" href="./careers.html">Careers</a>
+            <a class="" href="./contact.html"><button type="submit" class="flex items-center bg-[#EB493A] p-3 text-white font-bold gap-2 w-fit uppercase">
+                <img src="images/icon-placeholder.svg"/>Contact Us
+            </button></a>
+        </div>
+    </nav>
+
+    <!-- Above the fold -->
+    <div class="flex flex-col relative bg-[#D9D9D9] -top-10">
+        <video class="w-screen" height="auto" src="images/tower.mp4" autoplay loop playsinline muted></video>
+        
+        <div class="absolute top-[300px] left-[100px] flex flex-col gap-5 max-w-[684px]">
+            <div>
+                <p class="text-[43px] font-light leading-[40px]"><span class="text-[#EB493A] text-[43px] font-semibold">Streamline</span> Your Operations,</p> 
+                <p class="text-[43px] font-light"><span class="text-[#EB493A] text-[43px] font-semibold">Simplify</span> Your Business </p>
+            </div>
+            <div class="w-2/4">
+                <p class="font-light font-base leading-[26px]"> We customize and implement Dynamics 365 Business Central for small to medium businesses, 
+                    optimizing their operations for growth and efficiency. </p>
+            </div>
+            <button type="submit" class="flex z-10 items-center bg-[#EB493A] p-3 text-white font-bold gap-2 w-fit uppercase">
+                <img src="images/icon-placeholder.svg"/>Get Started
+            </button>
+        </div>
+
+        <img class="absolute bottom-0" src="images/triangle_trio.png"/>
+
+        <div class="flex absolute bottom-0 right-0 bg-white h-40 hidden">
+            <div class="w-80">left</div>
+            <div class="w-80">right</div>
+        </div>
+        
+    </div>
+
+    <!-- Partners -->
+    <div class="absolute flex bg-[#E7E7E7] justify-around p-4 bottom-0 w-screen drop-shadow-md">
+        <img src="images/partners/image_11.png"/>
+        <img src="images/partners/image_12.png"/>
+        <img src="images/partners/image_13.png"/>
+        <img src="images/partners/image_14.png"/>
+        <img src="images/partners/image_16.png"/>
+    </div>
+
+
+    <!-- Who We Are -->
+    <div class="flex flex-col py-[150px] px-[100px] items-center content-center gap-10">
+        <div class="flex flex-col content-center gap-3">
+            <p class="text-[#EB493A] text-center text-sm font-light">Discover</p>
+            <p class="font-light text-3xl text-center">Who We Are</p>
+            <p class="font-light tracking-wide text-center leading-[26px]">
+                Miracle specialists have proven experience to guide you through the 
+            </br>biggest operational change your business has seen yet.</p>
+        </div>
+        <div class="relative flex gap-10">
+            <div class="flex flex-col gap-6 bg-[#EB493A] bg-opacity-20 p-10 rounded-lg drop-shadow-md">
+                <div class="bg-[#2B2320] h-[50px] w-[50px] rounded-lg">
+                    <img class="rounded-lg" src="images/event.gif" alt="">
+                </div>
+                <p class="text-2xl font-semibold">12 Years Experience</p>
+                <p class="font-light font-base leading-[26px]">We know what's needed to lead businesses through a successful operational change.</p>
+            </div>
+            <div class="relative flex flex-col gap-6 p-10 border border-opacity-20 border-[#2B2320] rounded-lg top-14 drop-shadow-md">
+                <div class="h-[50px] w-[50px]">
+                    <img class="rounded-lg" src="images/award.gif" alt="">
+                </div>
+                <p class="text-2xl font-semibold">Industry Leading Technology Solutions</p>
+                <p class="font-light font-base leading-[26px]">Powerful, robust, innovative - we only provide the best technology solutions available.</p>
+            </div>
+            <div class="flex flex-col gap-6 p-10 bg-opacity-20 bg-[#EB493A] rounded-lg">
+                <div class="h-[50px] w-[50px] rounded-lg drop-shadow-md">
+                    <img class="rounded-lg" src="images/compass.gif" alt="">
+                </div>
+                <p class="text-2xl font-semibold">Navigate Critical Change</p>
+                <p class="font-light font-base leading-[26px]">Having a partner communicate and customize a solution that's right for your business is essential.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Products -->
+    <div class="relative flex bg-white p-32 gap-72 -pb-90">
+        <div class="flex bg-[#FBFAF8] mx-auto pl-0 pt-[150px] p-32 gap-72 -pb-90">
+        <img class="absolute bottom-0 right-0" src="images/triangles.png" alt="">
+        <div class="w-1/3 flex flex-col gap-20">
+            <div class="flex flex-col gap-3 pl-[100px]">
+                <p class="text-[#EB493A] text-sm font-light">Discover</p>
+                <p class="font-light text-3xl">Our Products</p>
+                <p class="font-light tracking-wide leading-[26px]">
+                    Miracle specialists have proven experience to guide you through the 
+                biggest operational change your business has seen yet.</p>
+            </div>
+            <img class="absolute -bottom-[80px] w-[380px] left-0" src="images/ipad.png"/>
+
+        </div>
+        <div class="grid grid-rows-3 grid-cols-2 w-2/3 h-fit gap-14">
+            <div class="flex flex-col gap-3 border-r border-solid pr-16">
+                <img class="h-[56px] w-fit" src="images/microsoft_logos/image 17.png">
+                <a href="#"><p class="uppercase font-semibold hover:text-[#EB493A]">ERP - D356 Business Central</p></a>
+                <p class="text-sm font-light tracking-wide leading-relaxed">An ERP Solution for growing small to medium sized businesses. Easy to adopt and easy to scale.</p>
+            </div>
+            
+            <div class="flex flex-col gap-3 pr-16">
+                <img class="h-[56px] w-fit" src="images/microsoft_logos/image 18.png">
+                <a href="#"><p class="uppercase font-semibold hover:text-[#EB493A]">ERP - Dynamics Nav</p></a>
+                <p class="text-sm font-light tracking-wide leading-relaxed">An ERP Solution for growing small to medium sized businesses. Easy to adopt and easy to scale.</p>
+            </div>
+
+            <div class="flex flex-col gap-3 border-r border-solid pr-16">
+                <img class="h-[56px] w-fit" src="images/microsoft_logos/image 19.png">
+                <a href="#"><p class="uppercase font-semibold hover:text-[#EB493A]">CRM - D365 Sales</p></a>
+                <p class="text-sm font-light tracking-wide leading-relaxed">A complete sales solution that helps you create a unified, ongoing relationship with your customers.</p>
+            </div>
+
+            <div class="flex flex-col gap-3 pr-16">
+                <img class="h-[56px] w-fit" src="images/microsoft_logos/image 19.png">
+                <a href="#"><p class="uppercase font-semibold hover:text-[#EB493A]">CRM - Customer Service</p></a>
+                <p class="text-sm font-light tracking-wide leading-relaxed">Empower your customer service team and build customer loyalty.</p>
+            </div>
+
+            <div class="flex flex-col gap-3 border-r border-solid pr-16">
+                <img class="h-[56px] w-fit" src="images/microsoft_logos/image 20.png">
+                <a href="#"><p class="uppercase font-semibold hover:text-[#EB493A]">Power Platform</p></a>
+                <p class="text-sm font-light tracking-wide leading-relaxed">Access intelligence, automation and insights into your business with ease.</p>
+            </div>
+
+            <div class="flex flex-col gap-3 pr-16">
+                <img class="h-[56px] w-fit" src="images/microsoft_logos/image 21.png">
+                <a href="#"><p class="uppercase font-semibold hover:text-[#EB493A]">Microsoft 365</p></a>
+                <p class="text-sm font-light tracking-wide leading-relaxed">Empower your team with seamless integration, security and productivity.</p>
+            </div>
+
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Companies we work with -->
+    <div class="flex pl-[120px] py-[100px] items-center">
+        <div class="flex flex-col gap-4 w-1/3">
+            <p class="text-3xl tracking-wide font-light"><span class="tracking-wide text-3xl text-[#EB493A]">Companies</span> We've</p> 
+            <p class="text-3xl font-light tracking-wide">Worked With</p>
+        </div>
+        <div class="flex flex-col gap-[13px] w-2/3">
+            <div class="flex justify-end gap-[9px]">
+                <div class="bg-[#D9D9D9] flex items-center p-5 rounded-md"><img src="images/worked_with/great_golf.png"></div>
+                <div class="bg-[#D9D9D9] flex items-center p-5 rounded-md"><img src="images/worked_with/amscan.png"></div>
+                <div class="bg-[#D9D9D9] flex items-center p-5 rounded-md"><img src="images/worked_with/ideal_warehouse.png"></div>
+                <div class="bg-[#D9D9D9] flex items-center p-5 rounded-md"><img src="images/worked_with/investorcom.png"></div>
+            </div>
+            <div class="flex justify-end gap-[9px]">
+                <div class="bg-[#D9D9D9] flex items-center p-5 rounded-md"><img src="images/worked_with/terso.png"></div>
+                <div class="bg-[#D9D9D9] flex items-center p-5 rounded-md"><img src="images/worked_with/a_j.png"></div>
+                <div class="bg-[#D9D9D9] flex items-center p-5 rounded-md"><img src="images/worked_with/terso.png"></div>
+                <div class="bg-[#D9D9D9] flex items-center p-5 rounded-md"><img src="images/worked_with/nisa_homes.png"></div>    
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Services -->
+    <div class="bg-[#FBFAF8] flex flex-col w-screen px-[100px] pt-20">
+        
+            <div class="flex flex-col gap-5">
+                <p class="text-[#EB493A] text-sm font-light">Discover</p>
+                <p class="font-light text-3xl">Our <span class="font-normal text-3xl text-[#EB493A]">Services</span></p>
+                <p class="font-light tracking-wide leading-[26px] w-1/2">
+                    Miracle specialists have proven experience to guide you through the 
+                biggest operational change your business has seen yet.</p>
+            </div>
+            
+          <div class="flex w-screen gap-20">
+            
+            <div class="flex flex-col w-1/2 pt-16 gap-6">
+                
+                    <div>
+                        <div class="flex items-center justify-between bg-[#EB493A] p-9 font-light text-2xl text-white uppercase">
+                            <p class="text-xl">Digital Transformation & Change Navigation</p>
+                            <p class="text-5xl">+</p>
+                        </div>
+                        <div class="bg-[#D9D9D9] p-4 px-9 flex flex-col gap-4">
+                            <p class="font-light leading-[28px] tracking-wide">Miracle’s methodology for ERP implementation is built around the client’s needs, making it faster and more successful.</p>
+                            <button type="submit" class="flex items-center bg-[#EB493A] p-3 text-white font-bold gap-2 w-fit uppercase"> 
+                                <img src="images/icon-placeholder.svg"/>
+                                Learn more
+                            </button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center justify-between bg-[#EB493A] p-9 font-light text-2xl text-white uppercase">
+                            <p class="text-xl">Custom Development & Systems Integration</p>
+                            <p class="text-5xl">+</p>
+                        </div>
+                        <div></div>
+                    </div>
+
+                    <div>
+                        <div class="flex items-center justify-between bg-[#EB493A] p-9 font-light text-2xl text-white uppercase">
+                            <p class="text-xl">Support, Training & Upgrades</p>
+                            <p class="text-5xl">+</p>
+                        </div>
+                        <div></div>
+                    </div>
+
+            </div>
+
+            <div class="relative w-1/2">
+                <img class="relative z-10 top-20" src="images/pic_1.png"/>
+                <img class="absolute top-[-85px] right-[99px] z-0" src="images/pic_2.png"/>
+            </div>
+         
+            </div>
+
+    </div>
+
+        
+    </div>
+    
+
+    <!-- Testimonials-->
+    <div class="pt-[150px] pb-[150px] px-[100px]">
+        <div class="flex flex-col w-full items-center gap-3 pb-20">
+            <p class="text-center text-[#EB493A] text-sm font-light">Testimonials</p>
+            <p class="text-center font-light text-3xl">From Our <span class="font-normal text-3xl text-[#EB493A]">Customers</span></p>
+            <p class="text-center font-light tracking-wide leading-[26px] w-1/3">
+                Miracle specialists have proven experience to guide you through the 
+            biggest operational change your business has seen yet.</p>
+        </div>
+        <div class="flex gap-4">
+            <div class="bg-[#D9D9D9] flex flex-col py-[42px] px-[20px] gap-4">
+                <p class="font-light text-sm text-center leading-7">Maan with Miracle IT is exactly what we were looking for in a Business Central Developer. Whether you’re just starting out with Business Central or have been using it for years, Maan has the knowledge and experience to help you implement and utilize existing system functionality or to help solve your unique business problem with a custom solution. I would highly recommend Maan to anyone looking for help in either of these areas.</p>
+                <div class="flex items-center gap-3">
+                    <img class="rounded-full" src="https://loremflickr.com/75/75" alt="">
+                    <div>
+                        <p>Tracey Hanson</p>
+                        <p>Senior Accountant at Terso Solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#D9D9D9] flex flex-col py-[42px] px-[20px] gap-4">
+                <p class="font-light text-sm text-center leading-7">Maan with Miracle IT is exactly what we were looking for in a Business Central Developer. Whether you’re just starting out with Business Central or have been using it for years, Maan has the knowledge and experience to help you implement and utilize existing system functionality or to help solve your unique business problem with a custom solution. I would highly recommend Maan to anyone looking for help in either of these areas.</p>
+                <div class="flex items-center gap-3">
+                    <img class="rounded-full" src="https://loremflickr.com/75/75" alt="">
+                    <div>
+                        <p>Tracey Hanson</p>
+                        <p>Senior Accountant at Terso Solutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#D9D9D9] flex flex-col py-[42px] px-[20px] gap-4">
+                <p class="font-light text-sm text-center leading-7">Maan with Miracle IT is exactly what we were looking for in a Business Central Developer. Whether you’re just starting out with Business Central or have been using it for years, Maan has the knowledge and experience to help you implement and utilize existing system functionality or to help solve your unique business problem with a custom solution. I would highly recommend Maan to anyone looking for help in either of these areas.</p>
+                <div class="flex items-center gap-3">
+                    <img class="rounded-full" src="https://loremflickr.com/75/75" alt="">
+                    <div>
+                        <p>Tracey Hanson</p>
+                        <p>Senior Accountant at Terso Solutions</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Bottom CTA -->
+    <div class="flex px-[100px] bg-[#FBFAF8]">
+        <div class="flex flex-col gap-5 w-2/3 justify-center">
+            <div>
+                <p class="text-[43px] leading-[48px] font-light">Ready to start <span class="text-[43px] text-[#EB493A]">transforming</span></p> 
+                <p class="text-[43px] leading-[48px] font-light">your <span class="text-[43px] text-[#EB493A]">business?</span></p>
+            </div>
+
+            <p class="font-light text-base leading-[26px] w-2/3">We customize and implement Dynamics 365 Business Central for small to medium businesses, optimizing their operations for growth and efficiency.</p>
+            
+            <button type="submit" class="flex items-center bg-[#EB493A] p-3 text-white font-bold gap-2 w-fit uppercase">
+                <img src="images/icon-placeholder.svg"/>Get Started
+            </button>
+        </div>
+        <div class="w-1/3 flex justify-center">
+            <img src="images/miracle_watermark.png"/>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="flex justify-between w-screen py-[76px] px-[100px] bg-[#D9D9D9]">
+        <div>
+            <img src="images/logo-footer.png"/>
+            <div class="flex flex-col pl-3 pt-[53px] gap-3">
+                <p class="font-semibold">Subscribe to Miracle Updates </p>
+                <form class="flex">
+                    <input class="p-2 w-[300px]" placeholder="Email Address"/>
+                    <button type="submit" class="flex items-center bg-[#EB493A] p-3 text-white font-bold gap-2">
+                        <img src="images/icon-placeholder.svg"/>
+                        SUBSCRIBE
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="flex gap-[88px]">
+            <div class="flex flex-col gap-[20px]">
+                <p class="font-bold">Contact Us</p>
+                <div class="flex flex-col font-light gap-[12px]">
+                    <p>info@miracleit.ca</p>
+                    <p>+1 (365) 505-2074</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-[20px] font-light">
+                <p class="font-bold">Navigate</p>
+                <p>Products</p>
+                <p>Services</p>
+                <p>About</p>
+                <p>Careers</p>
+            </div>
+
+            <div class="flex flex-col gap-[20px]">
+                <p class="font-bold">Locations</p>
+                <div class="leading-[24px]">
+                    <p class="font-bold">Canada</p>
+                    <div class="font-light">
+                        <p>407 Iroquois Shore Rd #8, Oakville, ON </p>
+                        <p>L6H 1M3</p>
+                    </div>
+                    
+                </div>
+                <div class="leading-[24px]">
+                    <p class="font-bold">USA</p>
+                    <div class="font-light">
+                        <p>919 North Market Street Suite 950, </p>
+                        <p>Wilmington, DE 19801, USA</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
